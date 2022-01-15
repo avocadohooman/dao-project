@@ -1,8 +1,9 @@
 import { ethers } from "ethers";
 import sdk from "./1-initialize-sdk.js";
 import { readFileSync } from "fs";
+import config from "../src/utils/config";
 
-const app = sdk.getAppModule("0x08144b841a50fc2Afb28f3B6b30c341cc5811dD9");
+const app = sdk.getAppModule(config.appAddress);
 
 (async () => {
 	try {

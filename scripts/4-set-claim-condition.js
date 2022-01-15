@@ -1,6 +1,7 @@
 import sdk from "./1-initialize-sdk.js";
+import config from "../src/utils/config";
 
-const bundleDrop = sdk.getBundleDropModule("0x3d14E510FcdAf9dA410e393694AD14f325a5C6DC");
+const bundleDrop = sdk.getBundleDropModule(config.bundleDropAddress);
 
 (async () => {
 	try {
