@@ -31,8 +31,6 @@ yarn run start
 
 ## App Preview 
 
-### Character selection page
-![character_selection](./README_assets/character_selection.png?raw=true)
-### Attacking Vogins
-![attacking_vogons](./README_assets/attacking_nft_game.gif?raw=true)
+### 42DAO Membership Section
+![membership_section](./README_assets/42dao.png?raw=true)
 
